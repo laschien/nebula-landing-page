@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #000;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 160px;
+  background-color: #02102a;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.logo-icon {
+  color: #6996f7;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-list a {
+  position: relative;
+  color: #cbd5e1;
+  transition: all 0.2s ease;
+}
+
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  height: 1px;
+  width: 0;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.nav-list a:hover {
+  color: #fff;
+}
+
+.nav-list a:hover::after {
+  width: 100%;
+}
+
+/* 
+
+Color Palette
+Dark background (hero + footer)
+
+#02102a (sleek dark navy)
+
+Main text on dark background
+
+#F8FAFC (very soft white)
+
+Secondary text
+
+#CBD5E1 (cool gray)
+
+Primary accent / buttons
+
+#3B82F6 (classic bright blue)
+
+Information section text
+
+Header: #0D1117
+Body: #475569
+
+Quote background
+
+#E2E8F0 (very light gray-blue)
+
+Quote text
+
+#0D1117 weight: 300–400
+
+*/
