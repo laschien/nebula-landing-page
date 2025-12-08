@@ -7,7 +7,7 @@ This project was built as a front-end practice exercise focusing on semantic HTM
 
 ## Live Demo
 
-Coming soon…
+<https://laschien.me/nebula-landing-page/>
 
 ---
 
